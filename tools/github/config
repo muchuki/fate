@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	url = https://muchuki@github.com/muchuki/fate.git
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[branch "tools"]
+	remote = origin
+	merge = refs/heads/development
